@@ -1,0 +1,2 @@
+class ProductsPromotions < ApplicationRecord
+end
