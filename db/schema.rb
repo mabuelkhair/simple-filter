@@ -38,8 +38,10 @@ ActiveRecord::Schema.define(version: 2020_03_02_133632) do
   create_table "promotions", force: :cascade do |t|
     t.decimal "discount", precision: 5, scale: 2
     t.boolean "active"
+    t.string "code", limit: 5, null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.index ["code"], name: "index_promotions_on_code", unique: true
   end
 
   add_foreign_key "products", "departments"
