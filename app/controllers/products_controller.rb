@@ -8,7 +8,7 @@ class ProductsController < ApplicationController
         end
         @products = @products.where("name like ?", "%#{params[:search]}%") if params[:search]
         @products = @products.where( department_id: params[:department_ids]) if params[:department_ids]
-        pagenated_products = @products.page params[:page]
-        render json: pagenated_products
+        pagenated_products = @products.page(params[:page])
+        render json: { products: pagenated_products, pages_count: pagenated_products.total_pages }
     end
 end
