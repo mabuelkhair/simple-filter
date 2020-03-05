@@ -9,6 +9,7 @@ class ProductsController < ApplicationController
         @products = @products.where("name like ?", "%#{params[:search]}%") if params[:search]
         @products = @products.where( department_id: params[:department_ids]) if params[:department_ids]
         pagenated_products = @products.page(params[:page])
-        render json: { products: pagenated_products, meta: { pages_count: pagenated_products.total_pages } }
+        serialized_products = ActiveModel::Serializer::CollectionSerializer.new(pagenated_products, each_serializer: ProductSerializer)
+        render json: { products: serialized_products, meta: { pages_count: pagenated_products.total_pages } }
     end
 end
