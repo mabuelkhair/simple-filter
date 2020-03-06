@@ -1,0 +1,24 @@
+ProductsPromotions_1:
+  product_id: 1
+  promotion_id: 5
+
+ProductsPromotions_2:
+  product_id: 11
+  promotion_id: 5
+
+ProductsPromotions_3:
+  product_id: 19
+  promotion_id: 5
+
+ProductsPromotions_4:
+  product_id: 4
+  promotion_id: 6
+
+ProductsPromotions_5:
+  product_id: 14
+  promotion_id: 6
+
+ProductsPromotions_6:
+  product_id: 18
+  promotion_id: 6
+

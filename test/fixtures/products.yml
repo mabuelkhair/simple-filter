@@ -1,11 +1,300 @@
-# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+Product_1:
+  id: 1
+  name: Electronics_1
+  price: !ruby/object:BigDecimal 27:0.3089e3
+  department_id: 7
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:45.352803000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:45.352803000 Z
+    zone: *2
+    time: *3
 
-one:
-  price: 
-  price: 
-  department: one
+Product_2:
+  id: 2
+  name: Electronics_2
+  price: !ruby/object:BigDecimal 27:0.17632e3
+  department_id: 7
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:45.424682000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:45.424682000 Z
+    zone: *2
+    time: *3
 
-two:
-  price: 
-  price: 
-  department: two
+Product_3:
+  id: 3
+  name: Toys_3
+  price: !ruby/object:BigDecimal 27:0.8056e2
+  department_id: 9
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:45.547610000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:45.547610000 Z
+    zone: *2
+    time: *3
+
+Product_4:
+  id: 4
+  name: Toys_4
+  price: !ruby/object:BigDecimal 27:0.41323e3
+  department_id: 9
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:45.656762000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:45.656762000 Z
+    zone: *2
+    time: *3
+
+Product_5:
+  id: 5
+  name: Toys_5
+  price: !ruby/object:BigDecimal 27:0.24388e3
+  department_id: 9
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:45.769373000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:45.769373000 Z
+    zone: *2
+    time: *3
+
+Product_6:
+  id: 6
+  name: Toys_6
+  price: !ruby/object:BigDecimal 27:0.38392e3
+  department_id: 9
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:45.867139000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:45.867139000 Z
+    zone: *2
+    time: *3
+
+Product_7:
+  id: 7
+  name: Toys_7
+  price: !ruby/object:BigDecimal 27:0.33186e3
+  department_id: 9
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:45.992242000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:45.992242000 Z
+    zone: *2
+    time: *3
+
+Product_8:
+  id: 8
+  name: Sports_8
+  price: !ruby/object:BigDecimal 27:0.13164e3
+  department_id: 8
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:46.091723000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:46.091723000 Z
+    zone: *2
+    time: *3
+
+Product_9:
+  id: 9
+  name: Electronics_9
+  price: !ruby/object:BigDecimal 27:0.31998e3
+  department_id: 7
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:46.214148000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:46.214148000 Z
+    zone: *2
+    time: *3
+
+Product_10:
+  id: 10
+  name: Electronics_10
+  price: !ruby/object:BigDecimal 27:0.7957e2
+  department_id: 7
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:46.289510000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:46.289510000 Z
+    zone: *2
+    time: *3
+
+Product_11:
+  id: 11
+  name: Electronics_11
+  price: !ruby/object:BigDecimal 27:0.9146e2
+  department_id: 7
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:46.381125000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:46.381125000 Z
+    zone: *2
+    time: *3
+
+Product_12:
+  id: 12
+  name: Toys_12
+  price: !ruby/object:BigDecimal 27:0.11532e3
+  department_id: 9
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:46.513927000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:46.513927000 Z
+    zone: *2
+    time: *3
+
+Product_13:
+  id: 13
+  name: Electronics_13
+  price: !ruby/object:BigDecimal 27:0.38183e3
+  department_id: 7
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:46.612912000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:46.612912000 Z
+    zone: *2
+    time: *3
+
+Product_14:
+  id: 14
+  name: Sports_14
+  price: !ruby/object:BigDecimal 27:0.2668e2
+  department_id: 8
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:46.725153000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:46.725153000 Z
+    zone: *2
+    time: *3
+
+Product_15:
+  id: 15
+  name: Electronics_15
+  price: !ruby/object:BigDecimal 27:0.7158e2
+  department_id: 7
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:46.825574000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:46.825574000 Z
+    zone: *2
+    time: *3
+
+Product_16:
+  id: 16
+  name: Sports_16
+  price: !ruby/object:BigDecimal 27:0.7463e2
+  department_id: 8
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:46.934913000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:46.934913000 Z
+    zone: *2
+    time: *3
+
+Product_17:
+  id: 17
+  name: Toys_17
+  price: !ruby/object:BigDecimal 27:0.1187e2
+  department_id: 9
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:47.046331000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:47.046331000 Z
+    zone: *2
+    time: *3
+
+Product_18:
+  id: 18
+  name: Electronics_18
+  price: !ruby/object:BigDecimal 27:0.3293e3
+  department_id: 7
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:47.165116000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:47.165116000 Z
+    zone: *2
+    time: *3
+
+Product_19:
+  id: 19
+  name: Toys_19
+  price: !ruby/object:BigDecimal 27:0.14497e3
+  department_id: 9
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:47.294115000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:47.294115000 Z
+    zone: *2
+    time: *3
+
+Product_20:
+  id: 20
+  name: Electronics_20
+  price: !ruby/object:BigDecimal 27:0.33657e3
+  department_id: 7
+  created_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &1 2020-03-02 16:27:47.411802000 Z
+    zone: &2 !ruby/object:ActiveSupport::TimeZone
+      name: Etc/UTC
+    time: *1
+  updated_at: !ruby/object:ActiveSupport::TimeWithZone
+    utc: &3 2020-03-02 16:27:47.411802000 Z
+    zone: *2
+    time: *3
+
