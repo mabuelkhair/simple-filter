@@ -2,7 +2,7 @@ class ProductsController < ApplicationController
     def index
         if params[:code]
             promotion = Promotion.find_by_code(params[:code])
-            @products = promotion ? promotion.products : Product.none
+            @products = promotion && promotion.active ? promotion.products : Product.none
         else
             @products = Product.all
         end
