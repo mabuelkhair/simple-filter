@@ -1,24 +1,58 @@
-# README
+##### Prerequisites
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The setups steps expect following tools installed on the system.
 
-Things you may want to cover:
+- Github
+- Ruby [2.7.0]
+- Rails [6.0.2]
 
-* Ruby version
+##### 1. Check out the repository
 
-* System dependencies
+```bash
+git clone https://github.com/mabuelkhair/trufla-backend.git
+```
 
-* Configuration
+##### 2. Create and setup the database
 
-* Database creation
+Run the following commands to create and setup the database.
 
-* Database initialization
+```ruby
+rails db:create
+rails db:setup
+```
 
-* How to run the test suite
+##### 3. Start the Rails server
 
-* Services (job queues, cache servers, search engines, etc.)
+You can start the rails server using the command given below.
+Please note the port is changed here because the frontend is using same port
 
-* Deployment instructions
+```ruby
+rails s -p 8000
+```
 
-* ...
+And now you can use the APIs using this URL http://localhost:8000
+
+**API Examples**
+
+Get first page of products
+```
+http://localhost:8000/products
+```
+get products in 2 departments 7 and 9
+```
+http://localhost:8000/products?department_ids[]=7&department_ids[]=9
+
+```
+get products with promocode act25
+```
+http://localhost:8000/products?code=act25
+
+```
+
+##### 4. To Run Test
+
+Just run this command to check run tests
+
+```ruby
+rails test
+```
